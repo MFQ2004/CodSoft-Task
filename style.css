@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(21, 1, 85);
+    color: white;
+}
+
+body h1 {
+    text-align: center;
+    padding: 5px;
+    font-size: 3.2rem;
+
+}
+
+.line p {
+    background-color: black;
+    /* margin: px; */
+    height: 0.9vw;
+}
+
+.container {
+    text-align: center;
+}
+
+.row {
+    margin: 12px;
+}
+
+.row input {
+    font-size: 20px;
+    padding: 8px 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 260px;
+}
+
+.button {
+    width: 65px;
+    padding: 25px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+}
