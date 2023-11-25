@@ -4,57 +4,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calcualtor By MFQ</title>
+    <title>Landing Page - By MFQ</title>
+
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="utils.css">
+    <link rel="shortcut icon" href="icons8-gym-96.png" type="image/x-icon">
 </head>
 
 <body>
-    <h1>Calculator By Mfq</h1>
-    <div class="line">
-        <p></p>
-    </div>
-    <div class="container">
-        <div class="row">
-            <input type="text" name="" id="">
-        </div>
-        <div class="row">
-            <button class="button">C</button>
-            <button class="button">%</button>
-            <button class="button">M+</button>
-            <button class="button">M-</button>
-        </div>
-        <div class="row">
-            <button class="button">7</button>
-            <button class="button">8</button>
-            <button class="button">9</button>
-            <button class="button">*</button>
-        </div>
-        <div class="row">
-            <button class="button">4</button>
-            <button class="button">5</button>
-            <button class="button">6</button>
-            <button class="button">/</button>
-        </div>
-        <div class="row">
-            <button class="button">1</button>
-            <button class="button">2</button>
-            <button class="button">3</button>
-            <button class="button">+</button>
-        </div>
-        <div class="row">
-            <button class="button">0</button>
-            <button class="button">.</button>
-            <button class="button">=</button>
-            <button class="button">-</button>
-        </div>
-    </div>
-    <script src="script.js">
+    <div class="container mx-auto">
+        <header>
+            <nav class="flex  justify-between">
+                <div class="logo"><a href="#"><img src="loho.png" alt="Logo" width="300px"></a></div>
+                <ul class="navbar flex items-center">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><button class="btn"><a href="join.html">Join Now</a></button></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <main class="min-h-screen">
+            <section class="section1">
+                <div class="flex">
+                    <div class="topleft flex justify-center flex-col px-2">
+                        <h1 class="my-1">The Best Fitness Gym in the town is here</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum molestiae autem voluptatem
+                            adipisci magni voluptatum facere dolorum corrupti incidunt id sit asperiores et, unde nihil
+                            ea fugit molestias, velit praesentium provident impedit voluptas natus inventore odio
+                            numquam! Perspiciatis?</p>
+                    </div>
+                    <div class="topright">
+                        <img src="gym.jpg" alt="gymimg" id="gymimg" width="400px">
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="section2">
+                <h1 class="text-center my-2">Pricing</h1>
+                <p class="my-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto quae corporis ad?
+                    Omnis
+                    voluptate modi voluptates veniam quidem eius vero nostrum inventore, ratione aperiam facilis dolores
+                    dicta at, beatae harum, quia consectetur. Voluptatem officiis neque dolor qui accusantium sequi
+                    eveniet voluptas dolores, sit est.</p>
+                <div class="boxes justify-center flex ">
+                    <div class="box">
+                        <h2>Basic</h2>
+                        <ul>
+                            <li class="highlighted">₹1500/Month</li>
+                            <li>10 User Included</li>
+                            <li>2 GB of Storage</li>
+                            <li>Email Support</li>
+                            <li>Help Center Access</li>
+                            <li><button class="btn"><a href="signup.html">Signup Now</a></button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Pro</h2>
+                        <ul>
+                            <li class="highlighted">₹3000/3-Months</li>
+                            <li>10 User Included</li>
+                            <li>2 GB of Storage</li>
+                            <li>Email Support</li>
+                            <li>Help Center Access</li>
+                            <li><button class="btn"><a href="signup.html">Signup Now</a></button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Pro Pluss</h2>
+                        <ul>
+                            <li class="highlighted">₹11000/12-Months</li>
+                            <li>10 User Included</li>
+                            <li>2 GB of Storage</li>
+                            <li>Email Support</li>
+                            <li>Help Center Access</li>
+                            <li><button class="btn" id="signup"><a href="signup.html">Signup Now</a></button></li>
+                        </ul>
+                    </div>
+                </div>
 
-    </script>
+            </section>
+            <hr>
+            <section class="section3">
+                <div class="flex">
+                    <div class="topright">
+                        <img src="gym3.jpg" alt="gymimg" id="gymimg3" width="500px">
+                    </div>
+                    <div class="topleft flex justify-center flex-col px-2">
+                        <!-- <h1 class="my-1" id="last">The Best Fitness Gym in the town is here</h1> -->
+                        <p id="last">
+                            <strong>Why Should You Join MFQ Fitness </strong>
+                            <br>
+                            "Joining MFQ Fitness presents an unparalleled opportunity to embark on a transformative
+
+                            fitness journey. Our establishment is committed to providing top-tier facilities equipped
+                            with the latest and best-in-class equipment, ensuring a premium fitness experience. We pride
+                            ourselves on offering an environment conducive to achieving your health and wellness goals.
+                            <br>
+                            <br>
+                            Notably, MFQ Fitness stands out as a budget-friendly gym without compromising on quality.
+                            Our cost-effective membership plans make exceptional fitness accessible to all, fostering an
+                            inclusive community driven by shared aspirations for a healthier lifestyle.
+                            <br>
+                            <br>
+                            By choosing MFQ Fitness, you're not just joining a gym; you're becoming part of a supportive
+                            and dedicated fitness family. We strive to inspire and empower every individual, catering to
+                            diverse fitness levels and objectives. Your fitness journey begins here, where commitment
+                            meets convenience and excellence meets affordability."
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+            <hr>
+        </main>
+        <footer>
+            <p class="justify-center text-center">Copyright @MFQfitness.com | All Rights Reserved</p>
+        </footer>
+
+    </div>
+
 </body>
 
 </html>
